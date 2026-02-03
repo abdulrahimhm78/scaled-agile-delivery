@@ -1,121 +1,123 @@
+# Dependency Management (Enterprise & Scaled Agile)
 
-# Dependency Management
-
-This directory defines the **enterprise-grade dependency management framework** used to identify, visualize, track, and resolve dependencies across teams, programs, and value streams in a scaled agile environment.
-
-Effective dependency management is critical to **delivery predictability, flow efficiency, and risk reduction**, especially in large, complex organizations.
+Effective dependency management ensures predictable delivery by identifying, tracking, and resolving cross-team, cross-system, and external dependencies early and continuously.
 
 ---
 
 ## Purpose
 
-The goal of this framework is to:
-
-- Proactively identify delivery dependencies early
-- Increase transparency across teams and stakeholders
-- Reduce delivery risk and last-minute surprises
-- Improve flow, predictability, and PI execution success
-- Enable data-driven escalation and decision-making
+To proactively manage dependencies that impact delivery flow, reduce risk, and enable coordinated execution across teams and programs.
 
 ---
 
-## Contents
+## Dependency Types
 
-| Document | Description |
-|--------|------------|
-| `dependency-identification.md` | Methods and techniques to identify dependencies early (team, program, system, vendor) |
-| `dependency-tracking.md` | Standardized approach to track, visualize, and manage dependencies throughout delivery |
-
----
-
-## Types of Dependencies Covered
-
-This framework addresses the following dependency types:
-
-- **Team-to-Team** (shared services, APIs, data contracts)
-- **Cross-ART / Program Dependencies**
-- **External Vendor / Third-Party Dependencies**
-- **Environment & Infrastructure Dependencies**
-- **Security, Compliance, and Governance Dependencies**
-- **Business Readiness & Operational Dependencies**
+- **Team-to-Team** – Work required from another delivery team
+- **System-to-System** – Integration or platform dependencies
+- **External Vendor** – Third-party deliverables or approvals
+- **Governance / Compliance** – Security, legal, audit, or regulatory gates
+- **Data / Environment** – Test data, environments, or infrastructure readiness
 
 ---
 
-## When Dependencies Are Managed
+## Ownership & Accountability
 
-Dependencies are identified and reviewed during:
+- **Scrum Master**
+  - Facilitates dependency identification and visibility
+  - Ensures dependencies are reviewed in ceremonies
+  - Drives escalation when blocked
 
-- Backlog Refinement
+- **Product Owner**
+  - Prioritizes work considering dependency risk
+  - Aligns sequencing with business outcomes
+
+- **Release Train Engineer / Program Lead**
+  - Coordinates cross-team dependencies
+  - Owns program-level resolution and escalation
+
+- **Delivery Teams**
+  - Surface dependencies early
+  - Actively collaborate to resolve them
+
+---
+
+## Identification Points
+
+Dependencies must be identified during:
+- Backlog refinement
 - Sprint Planning
-- Scrum of Scrums
-- PI Pre-Planning
-- PI Planning
-- Program Sync / ART Sync
-- Risk & Dependency Review Forums
+- PI Planning (Program-level)
+- Daily Scrum (emerging blockers)
 
 ---
 
-## Visibility & Tracking
+## Dependency Tracking Standards
 
-Dependencies are tracked and visualized using:
+Each dependency must include:
+- Clear description
+- Owning team or external party
+- Required-by date
+- Impact if delayed
+- Current status (Open / At Risk / Resolved)
+- Explicit owner
 
-- Jira (issue links, dependency labels, blockers)
-- Program boards (PI Planning)
-- Dependency registers
-- RAID / ROAM boards
-- Delivery health dashboards
-
-Each dependency includes:
-- Owner
-- Impacted teams
-- Required date
-- Risk level
-- Status
-- Mitigation plan
+Recommended artifacts:
+- Program dependency board
+- RAID log (Risks, Assumptions, Issues, Dependencies)
+- Jira dependency links or labels
 
 ---
 
-## Governance & Escalation
+## Resolution Workflow
 
-Dependencies that meet escalation criteria (e.g., high risk, cross-ART impact, external blockers) are escalated through:
-
-- Scrum of Scrums
-- RTE / Program Leadership
-- Portfolio or Value Stream leadership
-
-Clear ownership and decision paths are enforced to prevent stagnation.
-
----
-
-## Expected Outcomes
-
-When applied consistently, this framework delivers:
-
-- Improved PI predictability
-- Reduced delivery risk
-- Faster impediment resolution
-- Better stakeholder alignment
-- Higher confidence in commitments
+1. **Identify** – Capture dependency as soon as discovered
+2. **Assess** – Determine impact, urgency, and risk level
+3. **Align** – Coordinate with owning party on resolution plan
+4. **Track** – Monitor status daily until resolved
+5. **Escalate** – Raise unresolved or high-risk dependencies promptly
+6. **Close** – Confirm resolution and unblock impacted work
 
 ---
 
-## Target Audience
+## Escalation Triggers
 
-- Scrum Masters
-- Release Train Engineers (RTEs)
-- Product Owners / Product Managers
-- Delivery Leads
-- Program & Portfolio Managers
-- Engineering Managers
+Escalate immediately when:
+- Dependency threatens sprint or PI objectives
+- No owner is assigned within 24–48 hours
+- External commitments are missed
+- Risk exposure increases over time
 
 ---
 
-## Continuous Improvement
+## Metrics & Signals
 
-Dependency management practices are inspected and adapted during:
+- Number of open dependencies per sprint / PI
+- Dependency aging
+- % dependencies resolved as planned
+- Delivery delays caused by dependencies
 
-- Sprint Retrospectives
-- PI Inspect & Adapt (I&A)
-- Delivery Health Reviews
+---
 
-Metrics and feedback are used to continuously improve dependency flow and resolution speed.
+## Good Practices
+
+- Visualize dependencies early and publicly
+- Assign a single accountable owner
+- Resolve dependencies before pulling work into a sprint
+- Review dependencies in every Scrum-of-Scrums / program sync
+- Treat unresolved dependencies as delivery risks
+
+---
+
+## Common Anti-Patterns
+
+- Discovering dependencies mid-sprint
+- Assuming “someone else” owns the dependency
+- Tracking dependencies informally or verbally
+- Delaying escalation to avoid conflict
+- Planning work without dependency validation
+
+---
+
+## Guiding Principle
+
+**Unmanaged dependencies create hidden risk. Visible dependencies enable predictable delivery.**
