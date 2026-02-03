@@ -1,170 +1,83 @@
-# System Demo
-
-A concise, end-to-end demonstration of how the **Enterprise Scrum Playbook** and **Scaled Agile Delivery** assets are used together in a real enterprise environment. This demo is designed for walkthroughs with executives, delivery leaders, and new teams.
-
----
+# System Demo – End of Iteration
 
 ## Purpose
+The System Demo validates integrated functionality at the end of an iteration, demonstrating working software across teams and confirming progress toward program and business objectives.
 
-- Demonstrate **how Agile standards translate into execution**
-- Show **role clarity**, **event discipline**, and **quality gates** in action
-- Provide a **repeatable reference demo** for onboarding and leadership reviews
+## When This Occurs
+- End of each iteration (or sprint)
+- Prior to PI-level or release-level reviews
+- After code integration and environment stabilization
 
----
+## Participants
+- Delivery Teams
+- Product Owners / Product Management
+- Scrum Masters / Release Train Engineer (RTE)
+- Architecture / Platform Representatives
+- Business Stakeholders (as appropriate)
+
+## Inputs
+- Integrated increment deployed to a shared environment
+- Accepted user stories meeting Definition of Done
+- Updated backlog and dependency status
+- Known risks and issues
 
 ## Demo Scope
+- Cross-team, end-to-end scenarios
+- Business-relevant workflows (not isolated components)
+- Functional, integrated capabilities
+- Non-functional highlights when relevant (performance, security, reliability)
 
-This system demo covers:
+## Agenda (60–90 Minutes)
+1. **Context Setting (5 min)**
+   - Iteration goals
+   - Scope of the demo
+   - Known constraints or exclusions
 
-- Scrum Team execution (single team)
-- Enterprise standards enforcement (DoR / DoD)
-- Scaled visibility (program-level signals)
-- Outcome-focused delivery flow
+2. **System Walkthrough (40–60 min)**
+   - End-to-end flow demonstrations
+   - Feature highlights by capability
+   - Integration points and dependencies
 
----
+3. **Feedback & Q&A (10–15 min)**
+   - Stakeholder feedback
+   - Clarifications and questions
 
-## Demo Architecture
+4. **Outcomes & Next Steps (5–10 min)**
+   - Accepted vs. follow-up items
+   - Impact on backlog prioritization
+   - Risks or dependencies requiring action
 
-Enterprise Agile System
-│
-├── Roles
-│ ├── Product Owner
-│ ├── Scrum Master
-│ └── Development Team
-│
-├── Scrum Events
-│ ├── Sprint Planning
-│ ├── Daily Scrum
-│ ├── Sprint Review
-│ └── Sprint Retrospective
-│
-├── Standards
-│ ├── Definition of Ready
-│ └── Definition of Done
-│
-└── Scaled Delivery (Optional)
-├── Dependencies
-├── Risks
-├── Program Visibility
-└── PI Planning Alignment
+## Success Criteria
+- Demonstrates working, integrated software
+- Aligns delivered functionality to business outcomes
+- Provides transparency into progress and gaps
+- Produces actionable feedback for backlog refinement
 
----
+## Good Practices
+- Demo real data and realistic scenarios
+- Focus on value delivered, not task completion
+- Keep narration concise and outcome-oriented
+- Ensure stable environments before the demo
+- Capture feedback live and visibly
 
-## Demo Scenario
+## Common Anti-Patterns
+- Slide-based demos instead of working software
+- Team-by-team demos without integration context
+- Over-polishing or hiding incomplete work
+- Treating the demo as a status update
 
-**Context**  
-A product team is delivering a customer-facing capability in a regulated enterprise environment.
+## Outputs
+- Validated increment
+- Stakeholder feedback logged
+- Updated backlog priorities
+- Identified risks, dependencies, and follow-ups
 
-**Constraints**
-- Fixed sprint length (2 weeks)
-- External dependencies
-- Executive visibility required
-- Quality gates enforced
-
----
-
-## Step-by-Step Demo Flow
-
-### 1. Backlog Readiness Check (DoR)
-
-- Business value articulated
-- Acceptance criteria defined
-- Dependencies identified
-- Item sized for sprint
-
-**Outcome:**  
-Only *ready* work enters Sprint Planning.
+## Ownership
+- **Facilitation:** RTE / Scrum Master
+- **Content:** Delivery Teams
+- **Acceptance & Feedback:** Product Management / Stakeholders
 
 ---
 
-### 2. Sprint Planning
-
-- Sprint Goal defined
-- Capacity validated
-- Risks surfaced
-- Commitment established
-
-**Artifacts Shown**
-- Sprint Goal
-- Sprint Backlog
-- Risk notes
-
----
-
-### 3. Daily Scrum (Execution)
-
-- Progress toward Sprint Goal
-- Blockers raised early
-- Coordination decisions made
-
-**Key Signal**
-- Team self-manages execution, not status reporting
-
----
-
-### 4. Sprint Review (Value Validation)
-
-- Working increment demonstrated
-- Stakeholder feedback captured
-- Backlog adjusted
-
-**Focus**
-- Delivered value, not completion percentages
-
----
-
-### 5. Sprint Retrospective (Improvement)
-
-- What helped delivery
-- What slowed delivery
-- One or two concrete improvements selected
-
-**Rule**
-- Action items are owned and tracked
-
----
-
-## Quality Enforcement (DoD)
-
-Work is considered **Done** only when:
-
-- Acceptance criteria met
-- Code reviewed and merged
-- Tests executed successfully
-- Documentation updated
-- Release standards satisfied
-
----
-
-## Metrics Highlighted (Optional)
-
-- Sprint Goal success rate
-- Blocker aging
-- Carryover trends
-- Improvement follow-through rate
-
-> Metrics are used for **learning and decision-making**, not performance management.
-
----
-
-## Executive Talking Points
-
-- Predictability over heroics
-- Transparency over status
-- Outcomes over output
-- Discipline enables speed at scale
-
----
-
-## Intended Use
-
-- Leadership demos
-- New team onboarding
-- Agile maturity assessments
-- Internal training sessions
-
----
-
-## Key Takeaway
-
-This system demo shows how **clear roles**, **strong standards**, and **intentional events** create predictable, high-quality delivery in complex enterprise environments.
+**Guiding Principle:**  
+A System Demo proves progress through working, integrated software—transparency over perfection.
